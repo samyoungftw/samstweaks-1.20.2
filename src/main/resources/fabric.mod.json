@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "samstweaks",
+	"version": "${version}",
+	"name": "samstweaks",
+	"description": "Tweaks that I believed needed to be added.",
+	"authors": [
+		"samyoungftw"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/samstweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sybersecurity.samstweaks.Samstweaks"
+		],
+		"fabric-datagen": [
+			"net.sybersecurity.samstweaks.SamstweaksDataGenerator"
+		]
+	},
+	"mixins": [
+		"samstweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
