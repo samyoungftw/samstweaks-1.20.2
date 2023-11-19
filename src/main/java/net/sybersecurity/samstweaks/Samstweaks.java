@@ -2,6 +2,8 @@ package net.sybersecurity.samstweaks;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.sybersecurity.samstweaks.block.ModBlocks;
 import net.sybersecurity.samstweaks.item.ModItemGroups;
 import net.sybersecurity.samstweaks.item.ModItems;
