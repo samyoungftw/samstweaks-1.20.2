@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_BLOCK);
 
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
+
                     }).build());
 
     public static void registerItemGroups() {

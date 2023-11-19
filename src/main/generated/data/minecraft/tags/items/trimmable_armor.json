@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "samstweaks:copper_helmet",
+    "samstweaks:copper_chestplate",
+    "samstweaks:copper_leggings",
+    "samstweaks:copper_boots"
+  ]
+}

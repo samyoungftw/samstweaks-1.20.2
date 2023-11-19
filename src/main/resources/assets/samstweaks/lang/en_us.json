@@ -3,8 +3,12 @@
   "block.samstweaks.ruby_ore": "Ruby Ore",
   "block.samstweaks.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
-
   "item.samstweaks.ruby": "Ruby",
+
+  "item.samstweaks.copper_helmet": "Copper Helmet",
+  "item.samstweaks.copper_chestplate": "Copper Chestplate",
+  "item.samstweaks.copper_leggings": "Copper Leggings",
+  "item.samstweaks.copper_boots": "Copper Boots",
 
   "itemgroup.samstweaks": "Sam's Tweaks"
 }
