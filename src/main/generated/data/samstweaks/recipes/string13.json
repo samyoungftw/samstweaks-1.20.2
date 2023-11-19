@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "string",
+  "ingredients": [
+    {
+      "item": "minecraft:green_wool"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:string"
+  }
+}

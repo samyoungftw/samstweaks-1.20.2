@@ -30,7 +30,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
 
-
         /*
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "NEEDS_NETHERITE_TOOL")))
                 .add(ModBlocks.RUBY_BLOCK);
