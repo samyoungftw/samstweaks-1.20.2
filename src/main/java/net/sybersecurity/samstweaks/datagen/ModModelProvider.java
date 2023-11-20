@@ -25,6 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TESTCUSTOMITEM, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));

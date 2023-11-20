@@ -5,6 +5,9 @@
 
   "item.samstweaks.ruby": "Ruby",
 
+  "item.samstweaks.testcustomitem": "TestCustomItem",
+  "tooltip.samstweaks.testcustomitem.tooltip": "Test",
+
   "item.samstweaks.copper_helmet": "Copper Helmet",
   "item.samstweaks.copper_chestplate": "Copper Chestplate",
   "item.samstweaks.copper_leggings": "Copper Leggings",

@@ -17,6 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.RUBY);
+
+                        entries.add(ModItems.TESTCUSTOMITEM);
+
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_BLOCK);

@@ -1,4 +1,4 @@
-// 1.20.2	2023-11-20T10:56:51.8621001	samstweaks/Recipes
+// 1.20.2	2023-11-20T12:41:33.5178636	samstweaks/Recipes
 c35709bd836543e1ceff68080650ffeffb32fdd1 data\samstweaks\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 dbb5ddffa5fd7f2ff357833e582fa81c11c2501b data\samstweaks\advancements\recipes\misc\string_from_white_wool.json
 4b4d98abe8898000aaece1bca16a61df95373d77 data\samstweaks\advancements\recipes\misc\string_from_yellow_wool.json
@@ -10,8 +10,8 @@ dbb5ddffa5fd7f2ff357833e582fa81c11c2501b data\samstweaks\advancements\recipes\mi
 f852c87db440edc73a34bdb5557f94094dc1d5a8 data\samstweaks\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 720ea99f6ea4f87087818162908f1682df666fa6 data\samstweaks\advancements\recipes\misc\string_from_brown_wool.json
 0450d04a4f9901f9544a599742354865bd7b4d79 data\samstweaks\advancements\recipes\misc\string_from_blue_wool.json
-b217b96a21b14854bb580a0955c1eb1e6e23a6bc data\samstweaks\recipes\string_from_pink_wool.json
 6c05bcda78a468396daa00d6347e56ab154487d8 data\samstweaks\recipes\ruby_from_blasting_deepslate_ruby_ore.json
+b217b96a21b14854bb580a0955c1eb1e6e23a6bc data\samstweaks\recipes\string_from_pink_wool.json
 4cacbcc212e3f1523c9329f959a035bfa8f61653 data\samstweaks\recipes\string_from_gray_wool.json
 7acd9678a28748a9a38bed700440bb6384926a4f data\samstweaks\recipes\string_from_light_gray_wool.json
 8cf2c192e746921b6755ea0b55876720008db291 data\samstweaks\recipes\string_from_blue_wool.json

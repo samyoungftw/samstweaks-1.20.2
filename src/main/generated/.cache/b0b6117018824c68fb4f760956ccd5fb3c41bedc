@@ -1,4 +1,4 @@
-// 1.20.2	2023-11-20T10:56:51.8641012	samstweaks/Model Definitions
+// 1.20.2	2023-11-20T12:41:33.5218671	samstweaks/Model Definitions
 7694cc62a4f3ffeb6053fb846d6fc33c2d087d9e assets\samstweaks\models\item\copper_boots_iron_trim.json
 081a548fd703015ee953db47463cc16bb30b1e4e assets\samstweaks\models\item\copper_helmet.json
 a8e5aa73d4bee1eee9aa1b3caa3ce5804e957638 assets\samstweaks\models\item\copper_helmet_iron_trim.json
@@ -22,6 +22,7 @@ d8c8bc7466169c0796be4b359445c4996dff6aec assets\samstweaks\models\item\ruby_ore.
 3c4ed60f7ffbd7ed49742a52d6692568b4fb7171 assets\samstweaks\models\item\copper_leggings_lapis_trim.json
 fbe3441658253f72a4572b0b70c9deb442121e7a assets\samstweaks\models\block\ruby_ore.json
 2bbddb1a8a062471862bbe4652ab1cc625242d37 assets\samstweaks\models\item\copper_leggings_iron_trim.json
+29d44634e4fd7817587c2740df1a4d1125c543ab assets\samstweaks\models\item\testcustomitem.json
 7bb339c58e3c3fcf25aec31b5b2994e86da90b7a assets\samstweaks\models\item\copper_boots_netherite_trim.json
 06b5251e3679b1b3164683c1fea9576707748188 assets\samstweaks\models\item\copper_chestplate_gold_trim.json
 2fb4597ca495a9f724de920decd78f7a4955ad9b assets\samstweaks\models\item\copper_helmet_quartz_trim.json

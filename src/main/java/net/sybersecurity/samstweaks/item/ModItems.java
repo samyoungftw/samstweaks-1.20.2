@@ -7,10 +7,12 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sybersecurity.samstweaks.Samstweaks;
+import net.sybersecurity.samstweaks.item.custom.TestCustomItem;
 
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item TESTCUSTOMITEM = registerItem("testcustomitem", new TestCustomItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item COPPER_HELMET = registerItem("copper_helmet", new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate", new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
