@@ -2,8 +2,9 @@ package net.sybersecurity.samstweaks.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.*;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.sybersecurity.samstweaks.block.ModBlocks;
 import net.sybersecurity.samstweaks.item.ModItems;
@@ -15,6 +16,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     // to be smelted or blasted into the result
     private static final List<ItemConvertible> RUBY_SMELTABLES =
             List.of(ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE);
+
+    private static final List<ItemConvertible> ALL_WOOL = List.of(
+            Blocks.WHITE_WOOL, Blocks.ORANGE_WOOL, Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL,
+            Blocks.YELLOW_WOOL, Blocks.LIME_WOOL, Blocks.PINK_WOOL, Blocks.GRAY_WOOL,
+            Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL, Blocks.PURPLE_WOOL,
+            Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL, Blocks.BLACK_WOOL
+    );
+
 
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
@@ -32,6 +41,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // Allows for compacting recipes, from gems to blocks and reversible
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY,
                 RecipeCategory.DECORATIONS, ModBlocks.RUBY_BLOCK);
+
+        for (ItemConvertible wool : ALL_WOOL) {
+            offerShapelessRecipe(exporter, Items.STRING, wool, "string", 4);
+        }
 
         /*
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY, 1)
