@@ -3,7 +3,7 @@ package net.sybersecurity.samstweaks;
 import net.fabricmc.api.ModInitializer;
 
 import net.sybersecurity.samstweaks.block.ModBlocks;
-import net.sybersecurity.samstweaks.custom.CustomText;
+import net.sybersecurity.samstweaks.utils.CustomText;
 import net.sybersecurity.samstweaks.item.ModItemGroups;
 import net.sybersecurity.samstweaks.item.ModItems;
 import org.slf4j.Logger;

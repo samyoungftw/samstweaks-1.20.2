@@ -13,7 +13,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.sybersecurity.samstweaks.custom.CustomText;
+import net.sybersecurity.samstweaks.utils.CustomText;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
