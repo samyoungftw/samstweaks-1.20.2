@@ -12,6 +12,7 @@ import net.sybersecurity.samstweaks.item.custom.TestCustomItem;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item CHAINMAIL = registerItem("chainmail", new Item(new FabricItemSettings()));
     public static final Item TESTCUSTOMITEM = registerItem("testcustomitem", new TestCustomItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item COPPER_HELMET = registerItem("copper_helmet", new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, new FabricItemSettings()));

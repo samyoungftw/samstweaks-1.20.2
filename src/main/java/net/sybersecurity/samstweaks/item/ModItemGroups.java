@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.RUBY);
+                        entries.add(ModItems.CHAINMAIL);
 
                         entries.add(ModItems.TESTCUSTOMITEM);
 

@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.*;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.sybersecurity.samstweaks.block.ModBlocks;
@@ -47,20 +48,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             offerShapelessRecipe(exporter, Items.STRING, wool, "string", 4);
         }
 
-        /*
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY, 1)
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.CHAINMAIL, Items.CHAIN);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET, 1)
                 // Crafting table pattern, 3x3
-                .pattern("")
-                .pattern("")
-                .pattern("")
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
                 // Crafting table keymap
-                .input('#', ModItems.RUBY)
-                .input('$', Items.STONE)
+                .input('C', ModItems.CHAINMAIL)
                 // Criteria of the user having these items
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .criterion(hasItem(ModItems.CHAINMAIL), conditionsFromItem(ModItems.CHAINMAIL))
                 // Shows the recipe name
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY)));
-         */
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_CHESTPLATE, 1)
+                // Crafting table pattern, 3x3
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                // Crafting table keymap
+                .input('C', ModItems.CHAINMAIL)
+                // Criteria of the user having these items
+                .criterion(hasItem(ModItems.CHAINMAIL), conditionsFromItem(ModItems.CHAINMAIL))
+                // Shows the recipe name
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_LEGGINGS, 1)
+                // Crafting table pattern, 3x3
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                // Crafting table keymap
+                .input('C', ModItems.CHAINMAIL)
+                // Criteria of the user having these items
+                .criterion(hasItem(ModItems.CHAINMAIL), conditionsFromItem(ModItems.CHAINMAIL))
+                // Shows the recipe name
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_BOOTS, 1)
+                // Crafting table pattern, 3x3
+                .pattern("C C")
+                .pattern("C C")
+                .pattern("   ")
+                // Crafting table keymap
+                .input('C', ModItems.CHAINMAIL)
+                // Criteria of the user having these items
+                .criterion(hasItem(ModItems.CHAINMAIL), conditionsFromItem(ModItems.CHAINMAIL))
+                // Shows the recipe name
+                .offerTo(exporter);
+
     }
 }

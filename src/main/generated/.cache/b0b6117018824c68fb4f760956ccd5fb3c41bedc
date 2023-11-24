@@ -1,4 +1,4 @@
-// 1.20.2	2023-11-20T12:41:33.5218671	samstweaks/Model Definitions
+// 1.20.2	2023-11-23T23:38:40.0448277	samstweaks/Model Definitions
 7694cc62a4f3ffeb6053fb846d6fc33c2d087d9e assets\samstweaks\models\item\copper_boots_iron_trim.json
 081a548fd703015ee953db47463cc16bb30b1e4e assets\samstweaks\models\item\copper_helmet.json
 a8e5aa73d4bee1eee9aa1b3caa3ce5804e957638 assets\samstweaks\models\item\copper_helmet_iron_trim.json
@@ -30,6 +30,7 @@ fbe3441658253f72a4572b0b70c9deb442121e7a assets\samstweaks\models\block\ruby_ore
 346b87aec88466136d82d79a7899db57c22e2ab8 assets\samstweaks\models\item\copper_helmet_redstone_trim.json
 aa4c607330eb82befa2d8f3ebe7f258de333bba7 assets\samstweaks\models\item\copper_boots.json
 a40d757d86495d4040c3264a4495b7e9a5351ecd assets\samstweaks\models\item\copper_helmet_emerald_trim.json
+62d8efc82188c0adeac5a0ca967d86b5feb82a79 assets\samstweaks\models\item\chainmail.json
 c02a77ed6861d83866a330bc321c3c85de3c88c5 assets\samstweaks\models\item\copper_leggings_emerald_trim.json
 7cc6f72bac1646a6f4b011823fc280617406a02e assets\samstweaks\models\item\copper_leggings_amethyst_trim.json
 3a63886a3244b09bdcf6d885fc89aef35d0e6f5f assets\samstweaks\models\block\deepslate_ruby_ore.json
